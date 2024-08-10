@@ -44,7 +44,7 @@
 		<div class="hero-content text-center" in:fade>
 			<div class="max-w-md">
 				<img src={logo} alt="ZPTX Logo" />
-				<div class="flex justify-center items-center gap-2 mt-8 text-lg md:text-xl font-mono">
+				<div class="flex justify-center items-center gap-2 mt-8 text-md md:text-xl font-mono">
 					<a href="{base}/team" class="transition hover:text-white">the team</a>
 					<p class="text-slate-600">/</p>
 					<a href="{base}/projects" class="transition hover:text-white">our projects</a>
