@@ -22,7 +22,7 @@
 		</div>
 		<div class="navbar-end"></div>
 		{#if menuOpen}
-			<div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center gap-2 mt-8 text-md font-mono" transition:fly={{ y: '-20%', duration: 100 }}>
+			<div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center text-center gap-2 mt-8 text-md font-mono shrink-0 w-full" transition:fly={{ y: '-20%', duration: 100 }}>
 				<a href="{base}/team" class="transition {$page.url.pathname === '/team' ? 'text-white' : 'hover:text-white'}">the team</a>
 				<p class="text-slate-600">/</p>
 				<a href="{base}/projects" class="transition {$page.url.pathname === '/projects' ? 'text-white' : 'hover:text-white'}">our projects</a>
