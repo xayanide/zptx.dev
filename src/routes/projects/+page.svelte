@@ -22,7 +22,7 @@
 			img.src = src;
 		});
 	};
-	const imagesToLoad = [logo, ...Object.values(projects).map(project => `/src/lib/images/${project.image}`)];
+	const imagesToLoad = [logo, ...Object.values(projects).map(project => `/${project.image}`)];
 	const createAndResolvePromises = async () => {
 		await Promise.all(imagesToLoad.map(preloadImage));
 		return reset();
@@ -55,7 +55,7 @@
 					<figure class="shrink-0">
 						<img
 							class="object-cover h-64 w-full"
-							src="/src/lib/images/{projects[project].image}"
+							src="/{projects[project].image}"
 							alt="{projects[project].name}" />
 					</figure>
 					<div class="card-body">
