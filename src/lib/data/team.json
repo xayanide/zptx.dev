@@ -1,0 +1,26 @@
+{
+  "zapteryx": {
+    "name": "Max",
+    "statement": "Hey! I'm Max, and I love working on cool stuff. I'm a full-stack developer, and I'm always looking for new things to learn.",
+    "image": "https://avatars.githubusercontent.com/u/9896328",
+    "roles": ["MANAGEMENT_TEAM" ,"DEVELOPMENT_TEAM"],
+    "github": "https://github.com/zapteryx",
+    "discord": "zapteryx"
+  },
+  "ashiepleb": {
+    "name": "Ashley",
+    "statement": "Hi there! My name is Ashley, and I'm a full-stack developer based in England. I'm always eager to learn new programming languages and keep up with the latest trends in the tech industry.",
+    "image": "https://avatars.githubusercontent.com/u/38188828",
+    "roles": ["MANAGEMENT_TEAM"],
+    "github": "https://github.com/ashiepleb",
+    "discord": "ashiepleb"
+  },
+  "xayanide": {
+    "name": "Xay",
+    "statement": "Hi, I'm Xay from the Philippines! I like contributing code on various open source projects I find interesting!",
+    "image": "https://avatars.githubusercontent.com/u/18362871",
+    "roles": ["DEVELOPMENT_TEAM", "LOCALIZATION_TEAM"],
+    "github": "https://github.com/xayanide",
+    "discord": "xayanide"
+  }
+}

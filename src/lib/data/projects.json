@@ -1,0 +1,15 @@
+{
+  "quaver": {
+    "name": "Quaver",
+    "description": "Simple-to-use music bot with features such as bass boost, nightcore, seek, search, and more.",
+    "github": "https://github.com/ZPTXDev/Quaver",
+    "discord": "https://go.zptx.dev/InviteQuaver",
+    "image": "quaver.png"
+  },
+  "warden": {
+    "name": "Warden",
+    "description": "Open-source moderation and utility bot for small communities.",
+    "github": "https://github.com/ZPTXDev/Warden",
+    "image": "warden.png"
+  }
+}
