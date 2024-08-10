@@ -49,7 +49,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="px-32 grid md:grid-cols-2 gap-4 py-8">
+		<div class="px-8 md:px-16 lg:px-32 grid md:grid-cols-2 gap-4 py-8">
 			{#each Object.keys(projects) as project, i}
 				<div class="card xl:card-side bg-base-100 shadow-xl" in:fly|global={{ y: '20%', delay: 100 * i }}>
 					<figure class="shrink-0">
